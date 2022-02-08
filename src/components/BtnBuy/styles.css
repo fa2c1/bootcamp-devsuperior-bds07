@@ -1,0 +1,11 @@
+.btn-icon-catalog {
+    background-color: #00285f;
+    width: 98%;
+    height: 40px;
+}
+
+.btn-icon h6 {
+    padding-top: 2px;
+    color: #fff;
+    align-items: center;
+}

@@ -1,8 +1,56 @@
-import './styles.css';
+import ProductCard from "components/ProductCard";
+import SearchBtn from "components/SearchBtn/Index";
 
 function Catalog() {
     return (
-        <h1>Pagina Catalago</h1>
+        <div className="container my-4">
+            <div className="row">
+                <div className="search-bar-card">
+                    <div className="button-search-bar">
+                        <SearchBtn />
+                    </div>
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                    <ProductCard />
+                </div>
+            </div>
+        </div>
     );
 }
 
