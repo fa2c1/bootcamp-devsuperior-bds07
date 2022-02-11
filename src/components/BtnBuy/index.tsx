@@ -2,9 +2,11 @@ import './styles.css'
 
 function ButtonBuy() {
     return (
-        <button className="btn btn-primary btn-icon">
-            <h6>COMPRAR</h6>
-        </button>
+        <div className="btn-container">
+            <button className="btn">
+                <h6>COMPRAR</h6>
+            </button>
+        </div>
     );
 }
 

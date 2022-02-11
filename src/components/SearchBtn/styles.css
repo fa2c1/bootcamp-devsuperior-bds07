@@ -56,7 +56,6 @@
 }
 
 @media (min-width: 768px) {
-
     .search-field {
         width: 500px;
     }
@@ -68,7 +67,6 @@
 }
 
 @media (min-width: 768px) {
-
     .search-field {
         width: 700px;
     }
