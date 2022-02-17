@@ -8,26 +8,25 @@ function Home() {
     return (
         <div className="home-container">
             <div className="base-card home-card">
-                <div className="home-content-container">
-                    <div>
-                        <h1>O carro perfeito pra você</h1>
+                <div className="home-image-container">
+                    <MainImage />
+                    <div className="home-text-container">
+                        <h1>O carro perfeito para você</h1>
                         <p>
-                            Conheça nossos carros e de mais um passo em relação do seu sonho
+                            Conheça nossos carros e dê mais um passo na realização do seu
+                            sonho
                         </p>
                     </div>
                 </div>
-                <div className="home-image-container">
-                    <MainImage />
-                </div>
             </div>
-            <div className='home-container-btn'>
-                <div className="home-btn">
-                    <div className="home-content-btn">
+            <div className="home-card-button">
+                <div className="home-container-button">
+                    <div>
                         <Link to="/products">
                             <ButtonIcon />
                         </Link>
-                        <p>Comece agora a navegar</p>
                     </div>
+                    <p>Comece agora a navegar</p>
                 </div>
             </div>
         </div>

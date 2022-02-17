@@ -9,7 +9,7 @@ function ProductCard() {
             <div className='card-top-container'>
                 <ProductImage />
             </div>
-            <div className='card-botton-container'>
+            <div className='card-bottom-container'>
                 <h6>Audi Supra TT</h6>
                 <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</i></p>
                 <ButtonBuy />

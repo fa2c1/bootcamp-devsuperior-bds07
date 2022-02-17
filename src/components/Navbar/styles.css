@@ -1,6 +1,4 @@
 .main-nav {
-    padding-left: 40px;
-    padding-right: 40px;
     min-height: 70px;
 }
 
@@ -13,22 +11,43 @@
 }
 
 .main-menu {
-    display: flex;
     font-size: 18px;
-    width: 768px;
-    justify-content: flex-end;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-menu a {
-    font-style: normal;
-    color: #00285F;
+    color: #00285f;
 }
 
 .main-menu a.active {
+    color: #00285f;
     font-weight: bold;
-    color: #00285F;
 }
 
 .main-menu a:hover {
-    color: #00285F;
+    color: #00285f;
+}
+
+@media (min-width: 576px) {
+    .main-nav {
+        padding-left: 50px;
+    }
+
+    .main-menu {
+        font-size: 18px;
+    }
+
+    .nav-logo-text h4 {
+        size: 24px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+    }
 }
